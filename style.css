@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .paragraph{
     width: 80%;
     text-align: justify;
@@ -14,7 +17,7 @@ h1{
     color: orange;
 }
 
-section{
+.flex-container{
     display: flex;
     padding-left: 5%;
     margin-bottom: 150px;
@@ -37,3 +40,26 @@ section{
     height: 100%;
 }
 
+.experiance-items{
+    width: 35%;
+    margin-left: 4%;
+    -webkit-box-shadow: -5px 10px 12px 6px rgba(0, 0, 0, 0.33);
+        box-shadow: -5px 10px 12px 6px rgba(0, 0, 0, 0.33);
+        border-radius: 10px;
+     padding: 0 20px;   
+}
+
+#Full-Stack-1{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#Full-Stack-2{
+        border-left: 8px solid;
+            border-image: linear-gradient(tomato, purple);
+            border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    color: darkgray;
+}
