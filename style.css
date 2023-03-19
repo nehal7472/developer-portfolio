@@ -17,13 +17,14 @@ h1{
 section{
     display: flex;
     padding-left: 5%;
+    margin-bottom: 150px;
 }
 
 .half-width{
     width: 50%;
 }
 .half-width img{
-    width: 85%;
+    width: 90%;
 }
 
 .Link-button{
